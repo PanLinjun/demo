@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a31a27-da23-4fbb-8ccb-94eddd6b87a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vditor-demo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vditor-demo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vditor-demo/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vditor-demo/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vditor-demo/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vditor-demo/src/components/md-editor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vditor-demo/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vditor-demo/src/test.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vditor-demo/vue.config.js" afterDir="false" />
+    <list default="true" id="e8a31a27-da23-4fbb-8ccb-94eddd6b87a4" name="Default Changelist" comment="vditor-demo">
+      <change afterPath="$PROJECT_DIR$/json-viewer/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/src/components/jsonViewer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-viewer/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +69,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="serve (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vditor-demo/json-viewer/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/vditor-demo/package.json" />
       <command value="run" />
@@ -57,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.serve" />
+        <item itemvalue="npm.serve (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -69,6 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606014153824</updated>
       <workItem from="1606014154877" duration="314000" />
+      <workItem from="1606216166393" duration="319000" />
+      <workItem from="1606216506413" duration="2898000" />
     </task>
     <servers />
   </component>
@@ -85,8 +124,35 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606035472721">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/-1366.304.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606035472721" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1606216613458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-1366.304.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606216613458" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1606216613458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/-1366.304.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606216613458" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1606216613458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/-1366.304.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606216613458" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1606216613458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/-1366.304.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606216613458" />
+    <state x="775" y="221" key="RollbackChangesDialog" timestamp="1606034458235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="221" key="RollbackChangesDialog/-1366.304.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606034458235" />
   </component>
 </project>
