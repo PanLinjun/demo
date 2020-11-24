@@ -1,17 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <json-viewer :data="test"></json-viewer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import jsonViewer from "./components/jsonViewer"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    jsonViewer
+  },
+  data() {
+    return {
+      test: {
+        id: 1,
+        value: 'ming',
+        property: {
+          address: 'earth',
+          single: true,
+          car: null
+        }
+      }
+    }
   }
 }
 </script>
